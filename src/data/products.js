@@ -1,0 +1,55 @@
+export const products = [
+  {
+    id: 1,
+    name: "Tênis Esportivo 1",
+    image: "/product-thumb-1.jpeg",
+    price: 299.9,
+    priceDiscount: 199.9,
+  },
+  {
+    id: 2,
+    name: "Tênis Esportivo 2",
+    image: "/product-thumb-2.jpeg",
+    price: 249.9,
+    priceDiscount: 179.9,
+  },
+  {
+    id: 3,
+    name: "Tênis Esportivo 3",
+    image: "/product-thumb-3.jpeg",
+    price: 329.9,
+  },
+  {
+    id: 4,
+    name: "Tênis Esportivo 4",
+    image: "/product-thumb-4.jpeg",
+    price: 399.9,
+    priceDiscount: 279.9,
+  },
+  {
+    id: 5,
+    name: "Tênis Esportivo 5",
+    image: "/product-thumb-5.jpeg",
+    price: 289.9,
+  },
+  {
+    id: 6,
+    name: "Tênis Casual 1",
+    image: "/product-thumb-1.jpeg",
+    price: 259.9,
+    priceDiscount: 189.9,
+  },
+  {
+    id: 7,
+    name: "Tênis Casual 2",
+    image: "/product-thumb-2.jpeg",
+    price: 319.9,
+  },
+  {
+    id: 8,
+    name: "Tênis Casual 3",
+    image: "/product-thumb-3.jpeg",
+    price: 349.9,
+    priceDiscount: 249.9,
+  },
+];

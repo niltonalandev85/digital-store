@@ -1,0 +1,130 @@
+.buy-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Nome */
+.buy-box-name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f1f1f;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* Referência */
+.buy-box-reference {
+  font-size: 12px;
+  color: #666666;
+  margin: 0;
+}
+
+/* Avaliações */
+.buy-box-rating {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buy-box-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #f6aa1c;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.buy-box-stars img {
+  width: 14px;
+  height: 14px;
+}
+
+.buy-box-rating-count {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+/* Preços */
+.buy-box-prices {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.buy-box-old-price {
+  color: #cccccc;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.buy-box-current-price {
+  color: #474747;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Descrição */
+.buy-box-description h3 {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.buy-box-description p {
+  color: #474747;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Variações */
+.buy-box-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Botão Comprar */
+.buy-box-button {
+  width: 220px;
+  max-width: 100%;
+  height: 48px;
+  background-color: #f6aa1c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.buy-box-button:hover {
+  background-color: #e59b12;
+}
+
+@media (max-width: 768px) {
+  .buy-box-name {
+    font-size: 26px;
+  }
+
+  .buy-box-current-price {
+    font-size: 28px;
+  }
+
+  .buy-box-button {
+    width: 100%;
+  }
+}
